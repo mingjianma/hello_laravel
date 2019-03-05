@@ -18,3 +18,6 @@ Route::get('/about', 'StaticPagesController@about')->name('about');
 
 //register
 Route::get('/signup', 'UsersController@create')->name('signup');
+
+//resource
+Route::resource('users', 'UsersController');
