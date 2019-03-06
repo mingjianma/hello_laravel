@@ -8398,10 +8398,12 @@ p {
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
+  cursor: default;
 }
 
 #logo:hover {
   color: #fff;
+  background-color: transparent;
 }
 
 /* footer */
